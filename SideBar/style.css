@@ -4,9 +4,9 @@
     padding: 0;
 }
 body{
-    
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+   
 }
 .container {
     padding: 0px 1%;
@@ -81,4 +81,34 @@ i{
 }
 .rating i{
     padding: 0%;
+}
+
+@media screen and  (max-width:950px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+        height: auto;
+      }
+      .sidebar ul {
+        display: flex;
+        justify-content: space-around;
+      }
+      .content {
+        margin-left: 0%;
+        margin-top: 40px;
+        justify-content: space-around;
+    }
+}
+@media (max-width:700px){
+    .sidebar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        margin-top: 250px;
+    }
 }
