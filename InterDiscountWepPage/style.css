@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300;400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+}
+header{
+    width: 90%;
+    margin: auto;
+    padding: 1rem o.5rem;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.nav-leftside a{
+    font-size:1.3rem ;
+    margin-left: 0.5rem;
+}
+nav{
+    padding:0.8rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-rightside{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-rightside ul{
+    list-style: none;
+    display: flex;
+    margin-left: 0.5rem;
+}
+.nav-rightside ul li{
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+.fa-circle-user,.account-icon{
+    font-size: 1.2rem;
+    color: gray;
+}
