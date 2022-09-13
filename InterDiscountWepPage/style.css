@@ -13,10 +13,9 @@ body{
 main{
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
 }
 header{
-    width: 90%;
+    width: 75%;
     margin: auto;
     padding: 1rem o.5rem;
 }
@@ -50,4 +49,40 @@ nav{
 .fa-circle-user,.account-icon{
     font-size: 1.2rem;
     color: gray;
+}
+.header-second-block{
+    margin-top: 2rem;
+    display: flex;
+}
+.header-second-block img{
+    width: 12rem;
+    height: 5.5rem;
+}
+#search-bar{
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    width: 35rem;
+    height: 2.5rem;
+}
+.searchbar-button{
+    margin-left: 5rem;
+    padding-top: 2.5rem;
+    position: relative;
+}
+label{
+    font-size: 1.1rem;
+    position: absolute;
+    left: 0.7rem;
+    margin-top: 0.7rem;
+}
+.search-button{
+    width: 5rem;
+    height: 2.5rem;
+    margin-top: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.2rem;
+    margin-left: 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
