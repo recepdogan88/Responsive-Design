@@ -42,5 +42,40 @@ main{
     height: 50vh;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+h4{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+.galeri .web{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.galeri a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+}
+.galeri a:hover{
+    color: rgb(218, 202, 202);
+    background-color: white;
+    padding: 10px;
+   
+}
+
 
